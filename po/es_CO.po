@@ -11,7 +11,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2020-06-13 20:45+0200\n"
-"PO-Revision-Date: 2019-01-09 15:53+0100\n"
+"PO-Revision-Date: 2020-08-07 02:06-0500\n"
 "Last-Translator: Francisco Javier Serrador <fserrador@gmail.com>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.4\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: <b>;</b>;<span weight=\"bold\" size=\"larger\">;</"
@@ -711,9 +711,9 @@ msgid ""
 "financial information you want at a glance. To do so, use the Sample & "
 "Custom->\"Custom Multicolumn Report\" report."
 msgstr ""
-"Puede empaquetar más de un boletín en una única ventana, suministrando toda "
-"la información financiera que quiera a la vez. Para ello, use el boletín "
-"«Muestra y Adaptación»→«Boletín Multicolumna Personalizado»."
+"Puede empaquetar más de un reporte en una única ventana, suministrando toda "
+"la información financiera que quiera a la vez. Para ello, use el reporte "
+"«Muestra y Adaptación»→«Reporte Multicolumna Personalizado»."
 
 #: doc/tip_of_the_day.list.c:95
 msgid ""
@@ -721,8 +721,8 @@ msgid ""
 "report as a report option, and use the Edit->Style Sheets menu to customize "
 "style sheets."
 msgstr ""
-"Las Hojas de Estilos afectan a cómo se enseñan los boletines. Elija una hoja "
-"de estilo para su boletín como una opción del boletín, y emplee el menú "
+"Las Hojas de Estilos afectan a cómo se enseñan los reportes. Elija una hoja "
+"de estilo para su reporte como una opción de reporte, y emplee el menú "
 "«Editar→Hojas de Estilo» para personalizar las hojas de estilos."
 
 #: doc/tip_of_the_day.list.c:99
@@ -1668,7 +1668,7 @@ msgstr "Vista/Editar cliente"
 
 #: gnucash/gnome/dialog-customer.c:910
 msgid "Customer's Jobs"
-msgstr "Ejercicios del Cliente"
+msgstr "Proyectos del Cliente"
 
 #: gnucash/gnome/dialog-customer.c:912
 msgid "Customer's Invoices"
@@ -1745,7 +1745,7 @@ msgstr "Debe seleccionar una configuración boletinada para borrar."
 
 #: gnucash/gnome/dialog-custom-report.c:448
 msgid "Unable to change report configuration name."
-msgstr "Incapaz de modificar el boletín del nombre de configuración."
+msgstr "Incapaz de modificar el nombre de la configuración del reporte."
 
 #: gnucash/gnome/dialog-custom-report.c:460
 msgid ""
@@ -1761,7 +1761,7 @@ msgstr "Cargar configuración boletinada"
 
 #: gnucash/gnome/dialog-custom-report.c:488
 msgid "Edit report configuration name"
-msgstr "Edita el nombre de configuración del boletín"
+msgstr "Edita el nombre de la configuración del reporte"
 
 #: gnucash/gnome/dialog-custom-report.c:490
 msgid "Delete report configuration"
@@ -1781,7 +1781,7 @@ msgstr "Debe introducir un nombre de usuario."
 
 #: gnucash/gnome/dialog-employee.c:204
 msgid "You must enter the employee's name."
-msgstr "Debe introducir el nombre del operador."
+msgstr "Debe introducir el nombre del empleado."
 
 #: gnucash/gnome/dialog-employee.c:213
 msgid "You must enter an address."
@@ -1795,11 +1795,11 @@ msgstr "Editar Operador"
 #: gnucash/gnome-search/dialog-search.c:1074
 #: gnucash/gtkbuilder/dialog-employee.glade:7
 msgid "New Employee"
-msgstr "Nuevo operador"
+msgstr "Nuevo Empleado"
 
 #: gnucash/gnome/dialog-employee.c:692
 msgid "View/Edit Employee"
-msgstr "Vista/Editar operador"
+msgstr "Ver/Editar Empleado"
 
 #: gnucash/gnome/dialog-employee.c:693
 msgid "Expense Vouchers"
@@ -1807,7 +1807,7 @@ msgstr "Comprobantes de Gastos"
 
 #: gnucash/gnome/dialog-employee.c:703
 msgid "Employee ID"
-msgstr "ID de operador"
+msgstr "ID de Empleado"
 
 #: gnucash/gnome/dialog-employee.c:705
 msgid "Employee Username"
@@ -2425,7 +2425,7 @@ msgstr "Contabilizar"
 #: gnucash/gnome/dialog-invoice.c:3277 gnucash/gnome/dialog-invoice.c:3286
 #: gnucash/gnome/dialog-invoice.c:3297
 msgid "Printable Report"
-msgstr "Boletín Declarable"
+msgstr "Reporte Imprimible"
 
 #: gnucash/gnome/dialog-invoice.c:3282 gnucash/gnome/dialog-invoice.c:3548
 msgid "View/Edit Bill"
@@ -2607,7 +2607,7 @@ msgstr "Recordatorio de Facturaciones Vencidas"
 
 #: gnucash/gnome/dialog-job.c:139
 msgid "The Job must be given a name."
-msgstr "El Ejercicio debe tener un nombre."
+msgstr "El Proyecto debe tener un nombre."
 
 #: gnucash/gnome/dialog-job.c:149
 msgid "You must choose an owner for this job."
@@ -2615,11 +2615,11 @@ msgstr "Debe elegir un titular para este ejercicio."
 
 #: gnucash/gnome/dialog-job.c:249
 msgid "Edit Job"
-msgstr "Editar Ejercicio"
+msgstr "Editar Proyecto"
 
 #: gnucash/gnome/dialog-job.c:251 gnucash/gnome-search/dialog-search.c:1086
 msgid "New Job"
-msgstr "Crear Ejercicio"
+msgstr "Crear Proyecto"
 
 #: gnucash/gnome/dialog-job.c:559
 msgid "View/Edit Job"
@@ -2647,17 +2647,17 @@ msgstr "Tipo"
 #: gnucash/gnome/dialog-job.c:578 gnucash/gnome-utils/gnc-tree-view-owner.c:357
 #: gnucash/gtkbuilder/dialog-job.glade:105
 msgid "Job Number"
-msgstr "Número de Ejercicio"
+msgstr "Número de Proyecto"
 
 #: gnucash/gnome/dialog-job.c:580 gnucash/gnome/dialog-job.c:593
 #: gnucash/gnome-utils/gnc-tree-view-owner.c:356
 #: gnucash/gtkbuilder/dialog-job.glade:118
 msgid "Job Name"
-msgstr "Nombre de Ejercicio"
+msgstr "Nombre de Proyecto"
 
 #: gnucash/gnome/dialog-job.c:644
 msgid "Find Job"
-msgstr "Encontrar Ejercicio"
+msgstr "Encontrar Proyecto"
 
 #: gnucash/gnome/dialog-lot-viewer.c:809
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:391
@@ -3037,7 +3037,7 @@ msgstr "Contenidos"
 #: gnucash/report/reports/standard/new-owner-report.scm:1024
 #: gnucash/report/reports/standard/owner-report.scm:743
 msgid "Report"
-msgstr "Boletín"
+msgstr "Reporte"
 
 #: gnucash/gnome/dialog-report-column-view.c:418
 msgid "Rows"
@@ -3387,7 +3387,7 @@ msgstr "Vista/Editar proveedor"
 
 #: gnucash/gnome/dialog-vendor.c:715
 msgid "Vendor's Jobs"
-msgstr "Ejercicios del Proveedor"
+msgstr "Proyectos del Proveedor"
 
 #: gnucash/gnome/dialog-vendor.c:717
 msgid "Vendor's Bills"
@@ -3548,7 +3548,7 @@ msgstr "Encuentra transacciones con una búsqueda"
 #. * translation in dialog-account.glade
 #: gnucash/gnome/gnc-plugin-basic-commands.c:153
 msgid "Ta_x Report Options"
-msgstr "_Opciones del boletín impositivo"
+msgstr "_Opciones del reporte de impuestos"
 
 #. Translators: currently implemented are *
 #. * US: income tax and                     *
@@ -3557,7 +3557,7 @@ msgstr "_Opciones del boletín impositivo"
 #: gnucash/gnome/gnc-plugin-basic-commands.c:158
 msgid "Setup relevant accounts for tax reports, e.g. US income tax"
 msgstr ""
-"Establezca cuentas relevantes para los boletines imponibles, p. e. "
+"Establezca cuentas relevantes para los reportes imponibles, p. e. "
 "imposiciones sobre ingresos EUA"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:164
@@ -3871,7 +3871,7 @@ msgstr "Encontrar _ejercicio…"
 #: gnucash/gnome/gnc-plugin-business.c:191
 #: gnucash/gnome/gnc-plugin-business.c:234
 msgid "Open the Find Job dialog"
-msgstr "Abre “Encontrar Ejercicio” como diálogo"
+msgstr "Abre el diálogo “Encontrar Proyecto”"
 
 #: gnucash/gnome/gnc-plugin-business.c:195
 #: gnucash/gnome/gnc-plugin-business.c:238
@@ -4640,7 +4640,7 @@ msgstr "Mueve el asiento efectivo una fila por debajo"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:233
 msgid "_Company Report"
-msgstr "Boletín de _Sociedad"
+msgstr "Reporte de _Sociedad"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:254
 msgid "_Standard"
@@ -4958,9 +4958,8 @@ msgid "Enter a payment for the owner of this invoice"
 msgstr "Introduce una liquidación para el titular de esta Factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:393
-#, fuzzy
 msgid "Open a company report window for the owner of this invoice"
-msgstr "Abre un boletín de sociedad para el titular de esta Factura"
+msgstr "Abre un reporte de empresa para el titular de esta factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:394
 #, fuzzy
@@ -5029,9 +5028,8 @@ msgid "Enter a payment for the owner of this bill"
 msgstr "Introduce una liquidación para el titular de esta Factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:415
-#, fuzzy
 msgid "Open a company report window for the owner of this bill"
-msgstr "Abre un boletín de sociedad para el titular de esta Factura"
+msgstr "Abre un reporte de empresa para el titular de esta factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:416
 msgid "Update Association for current bill"
@@ -5097,9 +5095,8 @@ msgid "Enter a payment for the owner of this voucher"
 msgstr "Introduce una liquidación para el titular de esta Factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:437
-#, fuzzy
 msgid "Open a company report window for the owner of this voucher"
-msgstr "Abre un boletín de sociedad para el titular de esta Factura"
+msgstr "Abre un reporte de empresa para el titular de esta factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:438
 msgid "Update Association for current voucher"
@@ -5166,9 +5163,8 @@ msgid "Enter a payment for the owner of this credit note"
 msgstr "Introduce una liquidación para el titular de esta Factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:459
-#, fuzzy
 msgid "Open a company report window for the owner of this credit note"
-msgstr "Abre un boletín de sociedad para el titular de esta Factura"
+msgstr "Abre un reporte de empresa para el titular de esta factura"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:460
 #, fuzzy
@@ -5232,11 +5228,11 @@ msgstr "Edita el cliente seleccionado"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:155
 msgid "E_dit Employee"
-msgstr "Editar _operador"
+msgstr "Editar _empleado"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:156
 msgid "Edit the selected employee"
-msgstr "Edita el operador seleccionado"
+msgstr "Edita el empleado seleccionado"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:161
 msgid "Create a new vendor"
@@ -5248,7 +5244,7 @@ msgstr "Crea un cliente nuevo"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:171
 msgid "Create a new employee"
-msgstr "Crea un operador nuevo"
+msgstr "Crea un empleado nuevo"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:177
 msgid "_Delete Owner..."
@@ -5298,31 +5294,31 @@ msgstr "Muestra la relación del cliente frente a todos los clientes"
 #: gnucash/report/reports/standard/job-report.scm:507
 #: gnucash/report/reports/standard/new-owner-report.scm:1170
 msgid "Vendor Report"
-msgstr "Boletín de Proveedor"
+msgstr "Reporte de Proveedor"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:222
 msgid "Show vendor report"
-msgstr "Muestra el boletín de proveedores"
+msgstr "Muestra el reporte de proveedores"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:226
 #: gnucash/report/reports/standard/job-report.scm:501
 #: gnucash/report/reports/standard/new-owner-report.scm:1161
 msgid "Customer Report"
-msgstr "Boletín de Cliente"
+msgstr "Reporte de Cliente"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:227
 msgid "Show customer report"
-msgstr "Muestra el boletín de clientes"
+msgstr "Muestra el reporte de clientes"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:231
 #: gnucash/report/reports/standard/job-report.scm:510
 #: gnucash/report/reports/standard/new-owner-report.scm:1179
 msgid "Employee Report"
-msgstr "Boletín de Operador"
+msgstr "Reporte de Operador"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:232
 msgid "Show employee report"
-msgstr "Muestra el boletín de operadores"
+msgstr "Muestra el reporte de empleados"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:293
 msgid "New Voucher"
@@ -5338,7 +5334,7 @@ msgstr "Clientes"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:631
 msgid "Jobs"
-msgstr "Ejercicios"
+msgstr "Proyectos"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:636
 msgid "Vendors"
@@ -5637,22 +5633,22 @@ msgstr "_Esta transacción"
 #: gnucash/gnome/gnc-plugin-page-register2.c:394
 #: gnucash/gnome/gnc-plugin-page-register.c:513
 msgid "Account Report"
-msgstr "Boletín de Cuenta"
+msgstr "Reporte de Cuenta"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:395
 #: gnucash/gnome/gnc-plugin-page-register.c:514
 msgid "Open a register report for this Account"
-msgstr "Abre un boletín de registro para esta Cuenta"
+msgstr "Abre un reporte de registros para esta Cuenta"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:399
 #: gnucash/gnome/gnc-plugin-page-register.c:518
 msgid "Account Report - Single Transaction"
-msgstr "Boletín de Cuenta - Transacción Única"
+msgstr "Reporte de Cuenta - Transacción Única"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:400
 #: gnucash/gnome/gnc-plugin-page-register.c:519
 msgid "Open a register report for the selected Transaction"
-msgstr "Abre un boletín de registro para la Transacción seleccionada"
+msgstr "Abre un reporte de registro para la Transacción seleccionada"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:410
 #: gnucash/gnome/gnc-plugin-page-register.c:542
@@ -5817,17 +5813,17 @@ msgstr "Resultados de Búsqueda"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2398
 msgid "General Journal Report"
-msgstr "Boletín Diario General"
+msgstr "Reporte de Libro Diario"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2404
 #: gnucash/gnome/gnc-plugin-page-register.c:3509
 msgid "Portfolio Report"
-msgstr "Boletín de Cartera"
+msgstr "Reporte de Cartera"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2410
 #: gnucash/gnome/gnc-plugin-page-register.c:3515
 msgid "Search Results Report"
-msgstr "Boletín de Resultados Buscados"
+msgstr "Reporte de Resultados de Búsqueda"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2414
 #: gnucash/gnome/gnc-plugin-page-register.c:3519
@@ -5840,7 +5836,7 @@ msgstr "Registro"
 #: gnucash/gnome/gnc-plugin-page-register2.c:2416
 #: gnucash/report/reports/standard/register.scm:377
 msgid "Register Report"
-msgstr "Boletín de Registro"
+msgstr "Reporte de Registro"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2432
 #: gnucash/gnome/gnc-plugin-page-register.c:3537
@@ -6087,7 +6083,7 @@ msgstr "Mostrar:"
 #: gnucash/gnome/gnc-plugin-page-register.c:3521
 #: gnucash/report/reports/standard/transaction.scm:33
 msgid "Transaction Report"
-msgstr "Boletín Transaccional"
+msgstr "Reporte Transaccional"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3921
 #: gnucash/gnome/gnc-split-reg.c:1240
@@ -6127,7 +6123,7 @@ msgstr "Comprobando desgloses en el registro efectivo: %u de %u"
 #: gnucash/gnome/gnc-plugin-page-report.c:287
 #: gnucash/gnome/gnc-plugin-page-report.c:288
 msgid "The numeric ID of the report."
-msgstr "El código numérico del boletín."
+msgstr "El código numérico del reporte."
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1086
 msgid "Print"
@@ -6161,25 +6157,25 @@ msgid ""
 "Update the current report's saved configuration. The report configuration "
 "will be saved in the file %s. "
 msgstr ""
-"Moderniza la configuración guardada del boletín efectivo. El boletín será "
+"Moderniza la configuración guardada del reporte efectivo. El reporte será "
 "guardado en el fichero %s. "
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1150
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Add the current report's configuration to the `Reports->Saved Report "
 "Configurations' menu. The report configuration will be saved in the file %s. "
 msgstr ""
-"Añade la configuración efectiva del boletín al menú 'Configuraciones del "
-"Boletín Guardada'. El boletín se guardará dentro del fichero %s. "
+"Añade la configuración efectiva del reporte al menú 'Configuraciones del "
+"Reporte Guardado'. El reporte se guardará dentro del fichero %s. "
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1156
 msgid "_Print Report..."
-msgstr "_Escribir boletín…"
+msgstr "_Escribir reporte…"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1157
 msgid "Print the current report"
-msgstr "Escribe el boletín efectivo"
+msgstr "Escribe el reporte efectivo"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1161
 msgid "Export as P_DF..."
@@ -6187,7 +6183,7 @@ msgstr "Exportar como P_DF…"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1162
 msgid "Export the current report as a PDF document"
-msgstr "Exporta el boletín efectivo como un documento PDF"
+msgstr "Exporta el reporte efectivo como un documento PDF"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1187
 msgid "Save _Report Configuration"
@@ -6195,19 +6191,19 @@ msgstr "_Guardar configuración boletinada"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1191
 msgid "Save Report Configuration As..."
-msgstr "Guardar Configuración de Boletín como…"
+msgstr "Guardar Configuración de Reporte como…"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1195
 msgid "Export _Report"
-msgstr "Exportar _boletín"
+msgstr "Exportar _reporte"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1196
 msgid "Export HTML-formatted report to file"
-msgstr "Exportar boletín con formato HTML a fichero"
+msgstr "Exportar reporte con formato HTML a fichero"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1200
 msgid "_Report Options"
-msgstr "Opciones de _boletín"
+msgstr "Opciones de _reporte"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1201
 #: gnucash/report/html-utilities.scm:245
@@ -6257,7 +6253,7 @@ msgstr "Escojaformato de exportación"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1473
 msgid "Choose the export format for this report:"
-msgstr "Escoja el formato de exportación para este boletín:"
+msgstr "Escoja el formato de exportación para este reporte:"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1513
 #, c-format
@@ -6293,7 +6289,7 @@ msgstr "No se pudo abrir el fichero %s. El error es: %s"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1722
 msgid "GnuCash-Report"
-msgstr "Boletín-GnuCash"
+msgstr "Reporte-GnuCash"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1779
 #: gnucash/gtkbuilder/business-prefs.glade:26
@@ -6420,7 +6416,7 @@ msgstr "Comunicar error"
 #: gnucash/gnome/gnc-plugin-report-system.c:151
 #: gnucash/report/reports/standard/view-column.scm:132
 msgid "An error occurred while running the report."
-msgstr "Ocurrió un error mientras se ejecuta el boletín."
+msgstr "Ocurrió un error mientras se ejecuta el reporte."
 
 #: gnucash/gnome/gnc-plugin-report-system.c:186
 #: gnucash/gnome/gnc-plugin-report-system.c:208
@@ -6431,7 +6427,7 @@ msgstr "Relleno de opciones URL equivocada: %s"
 #: gnucash/gnome/gnc-plugin-report-system.c:196
 #, c-format
 msgid "Badly-formed report id: %s"
-msgstr "Formato del ID de boletín equivocado: %s"
+msgstr "Formato del ID de reporte equivocado: %s"
 
 #: gnucash/gnome/gnc-split-reg2.c:632 gnucash/gnome/gnc-split-reg.c:1980
 msgid "Balancing entry from reconciliation"
@@ -6528,7 +6524,7 @@ msgstr "Cuenta de reserva por garantía «%s»"
 #: gnucash/gnome/gnc-split-reg.c:443
 #, fuzzy
 msgid "Portfolio registers"
-msgstr "Boletín de Cartera"
+msgstr "Reporte de Cartera"
 
 #: gnucash/gnome/gnc-split-reg.c:448
 #, fuzzy
@@ -6787,7 +6783,7 @@ msgstr ""
 "rastrear cuentas bancarias, reservas, ingresos y gastos. Tan rápido e "
 "intuitivo para emplear como un registro de comprobación, está basado en los "
 "principios profesionales de contabilidad como asientos dobles para asegurar "
-"los balances de libros y boletines detallados."
+"los balances de libros y reportes detallados."
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:15
 msgid "With GnuCash you can (but are not limited to):"
@@ -6812,7 +6808,7 @@ msgstr "Conserve su contabilidad de los pequeños negocios al día"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:20
 msgid "Create accurate reports and graphs from your financial data"
-msgstr "Crea boletines precisos y gráficas desde sus datos financieros"
+msgstr "Crea reportes precisos y gráficas desde sus datos financieros"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:21
 msgid "Set up scheduled transactions to avoid repeated data entry"
@@ -6854,11 +6850,11 @@ msgstr "Enseña el ~a boletinado"
 #: gnucash/gnome/report-menus.scm:90
 #: gnucash/gtkbuilder/dialog-custom-report.glade:8
 msgid "Saved Report Configurations"
-msgstr "Boletín de Configuraciones Guardadas"
+msgstr "Reporte de Configuraciones Guardadas"
 
 #: gnucash/gnome/report-menus.scm:92
 msgid "Manage and run saved report configurations"
-msgstr "Gestionar y ejecutar configuraciones de boletines guardados"
+msgstr "Gestionar y ejecutar configuraciones de reportes guardados"
 
 #: gnucash/gnome/report-menus.scm:116
 #: gnucash/report/reports/standard/dashboard.scm:52
@@ -6884,7 +6880,7 @@ msgstr "No ha seleccionado un titular"
 #: gnucash/report/reports/standard/new-owner-report.scm:97
 #: libgnucash/engine/gncOwner.c:219
 msgid "Job"
-msgstr "Ejercicio"
+msgstr "Proyecto"
 
 #: gnucash/gnome/search-owner.c:231
 #: gnucash/gnome-search/search-reconciled.c:177
@@ -7238,11 +7234,11 @@ msgstr ""
 
 #: gnucash/gnome/window-report.c:115
 msgid "Set the report options you want using this dialog."
-msgstr "Establezca las opciones de boletines que desee usando este diálogo."
+msgstr "Establezca las opciones de reportes que desee usando este diálogo."
 
 #: gnucash/gnome/window-report.c:232
 msgid "There are no options for this report."
-msgstr "No hay opciones para este boletín."
+msgstr "No hay opciones para este reporte."
 
 #: gnucash/gnome-search/dialog-search.c:229
 msgid "You must select an item from the list"
@@ -8924,7 +8920,7 @@ msgstr "_Transacción"
 # Letra modificada_OK
 #: gnucash/gnome-utils/gnc-main-window.c:274
 msgid "_Reports"
-msgstr "_Boletines"
+msgstr "_Reportes"
 
 #: gnucash/gnome-utils/gnc-main-window.c:275
 msgid "_Tools"
@@ -9215,7 +9211,8 @@ msgstr "Contabilidad financiara personal y pequeños negocios."
 msgid "translator-credits"
 msgstr ""
 "Francisco Javier Serrador <serrador@tecknolabs.com>  7-ene-2019\n"
-"Eneko Lacunza <enlar@enlar.net>"
+"Eneko Lacunza <enlar@enlar.net>\n"
+"David Paez <davpaez@gmail.com>"
 
 #: gnucash/gnome-utils/gnc-main-window.c:4528
 msgid "Visit the GnuCash website."
@@ -9880,11 +9877,11 @@ msgstr "Actual"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:824
 msgid "Present (Report)"
-msgstr "Presente (boletín)"
+msgstr "Presente (reporte)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:838
 msgid "Balance (Report)"
-msgstr "Balance (boletín)"
+msgstr "Balance (reporte)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:845
 msgid "Balance (Period)"
@@ -9892,11 +9889,11 @@ msgstr "Balance (periodo)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:859
 msgid "Cleared (Report)"
-msgstr "Desmarcado (boletín)"
+msgstr "Desmarcado (reporte)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:873
 msgid "Reconciled (Report)"
-msgstr "Conciliado (boletín)"
+msgstr "Conciliado (reporte)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:880
 msgid "Last Reconcile Date"
@@ -9908,11 +9905,11 @@ msgstr "Mínimo Futuro"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:893
 msgid "Future Minimum (Report)"
-msgstr "Mínimo Futuro (boletín)"
+msgstr "Mínimo Futuro (reporte)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:907
 msgid "Total (Report)"
-msgstr "Totales (boletín)"
+msgstr "Totales (reporte)"
 
 #: gnucash/gnome-utils/gnc-tree-view-account.c:914
 msgid "Total (Period)"
@@ -10438,7 +10435,7 @@ msgstr "Expresión regular que determina qué mercancías se obtendrán"
 #: gnucash/gnucash-cli.cpp:101
 #, fuzzy
 msgid "Report Generation Options"
-msgstr "Opciones de _boletín"
+msgstr "Opciones de _reporte"
 
 #: gnucash/gnucash-cli.cpp:104
 msgid ""
@@ -10462,7 +10459,7 @@ msgstr "2. Seleccione la familia de importe"
 #: gnucash/gnucash-cli.cpp:113
 #, fuzzy
 msgid "Output file for report\n"
-msgstr "Mosaico de fondo para boletines."
+msgstr "Mosaico de fondo para reportes."
 
 #: gnucash/gnucash-cli.cpp:128
 msgid "Unknown quotes command '{1}'"
@@ -10505,7 +10502,7 @@ msgstr "Comunique defectos y otros problemas a gnucash-devel@gnucash.org"
 #: gnucash/gnucash-core-app.cpp:93
 #, fuzzy
 msgid "You can also lookup and file bug reports at {1}"
-msgstr "También puede ver y enviar boletines de defectos a"
+msgstr "También puede ver y enviar reportes de defectos a"
 
 #. Translators: {1} will be replaced with a URL
 #: gnucash/gnucash-core-app.cpp:95
@@ -10567,7 +10564,7 @@ msgstr ""
 "Nivel de bitácora sobrepasado, del formato  \"modulename={debug,info,warn,"
 "crit,error}\"\n"
 "Ejemplos: \"--log qof=debug\" o \"--log gnc.backend.file.sx=info\"\n"
-"boletínuede ser invocado múltiples veces."
+"reporteuede ser invocado múltiples veces."
 
 #: gnucash/gnucash-core-app.cpp:590
 msgid ""
@@ -10619,7 +10616,7 @@ msgstr "Ayuda para la opción primera."
 #: gnucash/gnucash.cpp:335
 #, fuzzy
 msgid "Deprecated Options"
-msgstr "Opciones de _boletín"
+msgstr "Opciones de _reporte"
 
 #: gnucash/gnucash.cpp:338
 msgid ""
@@ -10858,11 +10855,11 @@ msgstr ""
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:132
 #: gnucash/gtkbuilder/business-prefs.glade:321
 msgid "The invoice report to be used for printing."
-msgstr "El boletín facturante a ser empleado para declarar."
+msgstr "El reporte facturante a ser empleado para declarar."
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:133
 msgid "The name of the report to be used for invoice printing."
-msgstr "El nombre del boletín a ser utilizar para declarar facturas."
+msgstr "El nombre del reporte a ser utilizar para declarar facturas."
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:137
 msgid "Open new invoice in new window"
@@ -12190,7 +12187,7 @@ msgid ""
 "on registers/reports"
 msgstr ""
 "Establece la opción de la operación en ficheros nuevos para utilizar campos "
-"del desglose “Operación” y “Núm” en los registros/boletines"
+"del desglose “Operación” y “Núm” en los registros/reportes"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:226
 #: gnucash/gtkbuilder/dialog-preferences.glade:1168
@@ -12492,21 +12489,21 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:343
 msgid "Create a new window for each new report"
-msgstr "Crea una ventana nueva para cada boletín nuevo"
+msgstr "Crea una ventana nueva para cada reporte nuevo"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:344
 msgid ""
 "If active, each new report will be opened in its own window. Otherwise new "
 "reports will be opened as tabs in the main window."
 msgstr ""
-"Si está activo, cada boletín creado será abierto en su propia ventana. En "
-"otro caso, los boletines nuevos serán abiertos como lengüetas en la ventana "
+"Si está activo, cada reporte creado será abierto en su propia ventana. En "
+"otro caso, los reportes nuevos serán abiertos como lengüetas en la ventana "
 "principal."
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:348
 #: gnucash/gtkbuilder/dialog-preferences.glade:3071
 msgid "Use the system locale currency for all newly created reports."
-msgstr "Emplee la moneda local del sistema para todos los boletines nuevos."
+msgstr "Emplee la moneda local del sistema para todos los reportes nuevos."
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:349
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:359
@@ -12516,7 +12513,7 @@ msgid ""
 "locale setting. If set to \"other\", GnuCash will use the setting specified "
 "by the currency-other key."
 msgstr ""
-"Esta opción controla la moneda por omisión usada en los boletines. Si se "
+"Esta opción controla la moneda por omisión usada en los reportes. Si se "
 "establece a «local» GnuCash obtendrá la moneda predeterminada desde las "
 "opciones locales del usuario. Si se establece a «otro», GnuCash empleará la "
 "opción especificado por la clave “currency-other”."
@@ -12524,15 +12521,15 @@ msgstr ""
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:353
 #: gnucash/gtkbuilder/dialog-preferences.glade:3051
 msgid "Use the specified currency for all newly created reports."
-msgstr "Emplee la moneda especificada para los boletines nuevos."
+msgstr "Emplee la moneda especificada para los reportes nuevos."
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:358
 msgid "Default currency for new reports"
-msgstr "Moneda por omisión para boletines nuevos"
+msgstr "Moneda por omisión para reportes nuevos"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:363
 msgid "Zoom factor to use by default for reports."
-msgstr "Factor de ampliación predefinido para boletines."
+msgstr "Factor de ampliación predefinido para reportes."
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:364
 #: gnucash/gtkbuilder/dialog-preferences.glade:3086
@@ -12541,9 +12538,9 @@ msgid ""
 "allows you to scale reports up by the set factor. For example setting this "
 "to 2.0 will display reports at twice their typical size."
 msgstr ""
-"Los boletines en pantallas de alta resolución tienden a ser difíciles de "
-"leer. Esta opción permite escalar los boletines para establecer el factor. "
-"Por ejemplo aplicando esto al 2.0 enseñará boletines el doble que el tamaño "
+"Los reportes en pantallas de alta resolución tienden a ser difíciles de "
+"leer. Esta opción permite escalar los reportes para establecer el factor. "
+"Por ejemplo aplicando esto al 2.0 enseñará reportes el doble que el tamaño "
 "típico."
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:373
@@ -12562,9 +12559,9 @@ msgid ""
 "resulting file name.)"
 msgstr ""
 "Esta opción elige el nombre del fichero para exportar como PDF. Esto es una "
-"cadena sprint(3) con tres argumentos: \"%1$s\" es el nombre del boletín como "
-"«Factura». «%2$s» es el número del boletín, al cual para un boletín "
-"facturante es el número de la factura. «%3$s» es la fecha del boletín, "
+"cadena sprint(3) con tres argumentos: \"%1$s\" es el nombre del reporte como "
+"«Factura». «%2$s» es el número del reporte, al cual para un reporte "
+"facturante es el número de la factura. «%3$s» es la fecha del reporte, "
 "formateado de acuerdo a la opción de nombre-fichero-fecha-formato. (Nota: "
 "cualquier carácter que sea no permitido en nombres de ficheros, como '/', "
 "serán remplazados con guiones bajos '_' en el nombre del fichero resultante.)"
@@ -12924,7 +12921,7 @@ msgstr ""
 msgid ""
 "Show a grand total of all accounts converted to the default report currency"
 msgstr ""
-"Muestra un saldo de todas las cuentas convertida a boletín monetario "
+"Muestra un saldo de todas las cuentas convertida a reporte monetario "
 "predeterminado"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:10
@@ -14640,10 +14637,10 @@ msgid ""
 "setting book options will not be shown a second time when you go forward. "
 "You can access it directly from the menu via File->Properties."
 msgstr ""
-"Desde que se está creando un fichero nuevo, lo siguiente que habrá que hacer "
+"Desde que se está creando un archivo nuevo, lo siguiente que habrá que hacer "
 "es ver un diálogo para configurar opciones del libro. Estas pueden afectar "
 "cómo se importan las transacciones de GnuCash. Si vuelve a esta página sin "
-"cancelar e iniciando otra, el diálogo para ajustar las opciones de ejercicio "
+"cancelar e iniciando otra, el diálogo para ajustar las opciones del archivo "
 "no serán mostradas por segunda vez cuando avance. Puede accederlo "
 "directamente desde el menú a través de Archivo→Propiedades."
 
@@ -15015,7 +15012,7 @@ msgstr "Indica si debe enseñarse la lista de Recibos Vencidos al inicio."
 
 #: gnucash/gtkbuilder/business-prefs.glade:166
 msgid "Report for printing"
-msgstr "Boletín para declarar"
+msgstr "Reporte para imprimir"
 
 #: gnucash/gtkbuilder/business-prefs.glade:175
 msgid "_Tax included"
@@ -15344,8 +15341,8 @@ msgid ""
 "Use Edit->Tax Report Options to set the tax-related flag and assign a tax "
 "code to this account."
 msgstr ""
-"Emplee “Editar→Opciones de Boletín de Imposición” para establecer el "
-"indicador de imposición relativa y asignar un código de imposición para esta "
+"Emplee “Editar→Opciones de Reporte de Impuestos” para establecer el "
+"indicador relacionado a impuestos y asignar un código de impuesto para esta "
 "cuenta."
 
 #: gnucash/gtkbuilder/dialog-account.glade:1525
@@ -16113,7 +16110,7 @@ msgstr "<b>4. Vista previa</b>"
 
 #: gnucash/gtkbuilder/dialog-custom-report.glade:54
 msgid "Exit the saved report configurations dialog"
-msgstr "Sale del boletín guardado de configuraciones del diálogo"
+msgstr "Sale del reporte guardado de configuraciones del diálogo"
 
 #: gnucash/gtkbuilder/dialog-custom-report.glade:102
 msgid ""
@@ -16121,7 +16118,7 @@ msgid ""
 "Currently you have no saved reports.\n"
 msgstr ""
 "\n"
-"Actualmente no tiene ningún boletín guardado.\n"
+"Actualmente no tiene ningún reporte guardado.\n"
 
 #: gnucash/gtkbuilder/dialog-custom-report.glade:116
 msgid ""
@@ -16131,12 +16128,12 @@ msgid ""
 "Configuration\" from\n"
 "the Reports menu or tool bar."
 msgstr ""
-"Las configuraciones de los boletines guardadas son creadas por primera vez "
-"abriendo un boletín \n"
-"desde el menú de Boletín, alternando las opciones boletinada a su gusto y "
+"Las configuraciones de los reportes guardadas son creadas por primera vez "
+"abriendo un reporte \n"
+"desde el menú de Reporte, alternando las opciones boletinada a su gusto y "
 "entones seleccionando \n"
-"\"Guardar Configuración del Boletín\" desde este menú de Boletines o barra "
-"de herramientas."
+"\"Guardar Configuración del Reporte\" desde este menú de Reportes o barra de "
+"herramientas."
 
 #: gnucash/gtkbuilder/dialog-date-close.glade:7
 #: gnucash/gtkbuilder/dialog-date-close.glade:263
@@ -16148,7 +16145,7 @@ msgid ""
 "The employee ID number. If left blank a reasonable number will be chosen for "
 "you"
 msgstr ""
-"El código de operador. Si se deja en blanco, se elegirá un número razonable"
+"El código de empleado. Si se deja en blanco, se elegirá un número razonable"
 
 #: gnucash/gtkbuilder/dialog-employee.glade:425
 #: gnucash/gtkbuilder/dialog-vendor.glade:419
@@ -16662,7 +16659,7 @@ msgstr "(titular)"
 #: gnucash/gtkbuilder/dialog-invoice.glade:536
 #: gnucash/gtkbuilder/dialog-invoice.glade:1114
 msgid "Default Chargeback Project"
-msgstr "Retroceso Predeterminado del Proyecto"
+msgstr "Proyecto Predeterminado para Contracargo"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:563
 msgid "Additional to Card"
@@ -16702,18 +16699,18 @@ msgstr "¿Restablecer Lengüetas de Imposición a Valores presentes?"
 
 #: gnucash/gtkbuilder/dialog-job.glade:7
 msgid "Job Dialog"
-msgstr "Ejercicio Dialogado"
+msgstr "Ventana dialogo de Proyecto"
 
 #: gnucash/gtkbuilder/dialog-job.glade:132
 msgid ""
 "The job ID number. If left blank a reasonable number will be chosen for you"
 msgstr ""
-"El código del ejercicio. Si se deja en blanco un número razonable será "
+"El código del proyecto. Si se deja en blanco un número razonable será "
 "elegido para usted"
 
 #: gnucash/gtkbuilder/dialog-job.glade:166
 msgid "Job Information"
-msgstr "Ejercicio Informado"
+msgstr "Información de Proyecto"
 
 #: gnucash/gtkbuilder/dialog-job.glade:274
 msgid "Owner Information"
@@ -16721,7 +16718,7 @@ msgstr "Información del Titular"
 
 #: gnucash/gtkbuilder/dialog-job.glade:292
 msgid "Job Active"
-msgstr "Ejercicio Activo"
+msgstr "Proyecto Activo"
 
 #: gnucash/gtkbuilder/dialog-lot-viewer.glade:7
 #: gnucash/report/reports/standard/lot-viewer.scm:34
@@ -17015,7 +17012,7 @@ msgstr "Incluir _saldo"
 msgid ""
 "Show a grand total of all accounts converted to the default report currency."
 msgstr ""
-"Muestra un saldo de todas las cuentas convertidas a boletín monetario "
+"Muestra un saldo de todas las cuentas convertidas a reporte monetario "
 "predeterminada."
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:229
@@ -17806,7 +17803,7 @@ msgstr "Registro Predeterminado"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2958
 msgid "<b>Default Report Currency</b>"
-msgstr "<b>Boletín Monetario Predeterminado</b>"
+msgstr "<b>Moneda predeterminada para Reportes</b>"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2981
 msgid "<b>Location</b>"
@@ -17814,15 +17811,15 @@ msgstr "<b>Ubicación</b>"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2991
 msgid "Report opens in a new _window"
-msgstr "El boletín se abre en una _ventana nueva"
+msgstr "El reporte se abre en una _ventana nueva"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2997
 msgid ""
 "If checked, each report will be opened in its own top level window. If "
 "clear, the report will be opened in the current window."
 msgstr ""
-"Si está marcado, cada boletín se abrirá en su propia ventana de nivel cima. "
-"Si está vacío, el boletín se abrirá en la ventana efectiva."
+"Si está marcado, cada reporte se abrirá en su propia ventana de nivel cima. "
+"Si está vacío, el reporte se abrirá en la ventana efectiva."
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3025
 msgid "<b>Default zoom level</b>"
@@ -17835,7 +17832,7 @@ msgstr "<b>Nivel de zoom Prederminado</b>"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3138
 msgid "Reports"
-msgstr "Boletines"
+msgstr "Reportes"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3157
 msgid "<b>Window Geometry</b>"
@@ -18072,7 +18069,7 @@ msgstr ""
 "\n"
 "Estos precios fueron añadidos tal que siempre hay un precio  «cercanos en "
 "tiempo» para cada transacción multicolumna tal que la página de Cuentas y "
-"boletines son capaces de informar correctamente valores tal que quitándolos "
+"reportes son capaces de informar correctamente valores tal que quitándolos "
 "puede hacer esto menos fiable."
 
 #: gnucash/gtkbuilder/dialog-price.glade:755
@@ -18275,11 +18272,11 @@ msgstr "Ocupado…"
 
 #: gnucash/gtkbuilder/dialog-report.glade:58
 msgid "<b>A_vailable reports</b>"
-msgstr "<b>Boletines _disponibles</b>"
+msgstr "<b>Reportes _disponibles</b>"
 
 #: gnucash/gtkbuilder/dialog-report.glade:74
 msgid "<b>_Selected Reports</b>"
-msgstr "<b>_Boletines Seleccionados</b>"
+msgstr "<b>_Reportes Seleccionados</b>"
 
 #: gnucash/gtkbuilder/dialog-report.glade:104
 msgid "A_dd  >>"
@@ -18315,11 +18312,11 @@ msgstr "<b>Opciones de hoja de estilo</b>"
 
 #: gnucash/gtkbuilder/dialog-report.glade:440
 msgid "Report Size"
-msgstr "Tamaño del boletín"
+msgstr "Tamaño del reporte"
 
 #: gnucash/gtkbuilder/dialog-report.glade:508
 msgid "Enter report row/column span"
-msgstr "Introducir desglose del boletín por filas/columnas"
+msgstr "Introducir desglose del reporte por filas/columnas"
 
 #: gnucash/gtkbuilder/dialog-report.glade:553
 msgid "_Row span"
@@ -19941,7 +19938,7 @@ msgstr "<b>Progreso</b>"
 #: gnucash/import-export/aqb/dialog-ab.glade:106
 #, fuzzy
 msgid "Current _Job"
-msgstr "Ejercicio Actual"
+msgstr "Proyecto Actual"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:148
 msgid "Progress"
@@ -19958,7 +19955,6 @@ msgid "<b>_Log Messages</b>"
 msgstr "<b>Mensajes de Bitácora</b>"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:252
-#, fuzzy
 msgid "Close when _finished"
 msgstr "Cerrar al finalizar"
 
@@ -20606,12 +20602,12 @@ msgstr "No se ha encontrado el módulo de importación para DTAUS."
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:295
 #, fuzzy, c-format
 msgid "Job %d status %d - %s\n"
-msgstr "Ejercicio %d estado %d - %s: %s \n"
+msgstr "Proyecto %d estado %d - %s: %s \n"
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:297
 #, fuzzy, c-format
 msgid "Job %d status %d - %s: %s\n"
-msgstr "Ejercicio %d estado %d - %s: %s \n"
+msgstr "Proyecto %d estado %d - %s: %s \n"
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:317
 msgid "...\n"
@@ -21707,7 +21703,7 @@ msgid ""
 msgstr ""
 "Ninguna columna «Moneda destino» seleccionada ni seleccionó ninguna Moneda "
 "especificada.\n"
-"Esto nunca debería ocurrir. Por favor envíe esto al boletín como un defecto."
+"Esto nunca debería ocurrir. Por favor envíe esto al reporte como un defecto."
 
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:597
 #, fuzzy
@@ -21718,7 +21714,7 @@ msgid ""
 msgstr ""
 "Ni seleccionó la columna «Mercancía origen» ni seleccionó Mercancía "
 "especificada.\n"
-"Esto nunca debería ocurrir. Envíe esto al boletín como un defecto."
+"Esto nunca debería ocurrir. Envíe esto al reporte como un defecto."
 
 #: gnucash/import-export/csv-imp/gnc-import-tx.cpp:480
 msgid "Please select an account column."
@@ -23483,7 +23479,7 @@ msgstr "Tipografías"
 
 #: gnucash/report/html-fonts.scm:69
 msgid "Font info for the report title."
-msgstr "Inf. de tipografía para el título del boletín."
+msgstr "Inf. de tipografía para el título del reporte."
 
 #: gnucash/report/html-fonts.scm:74
 msgid "Account link"
@@ -23575,7 +23571,7 @@ msgstr "Deshabilitado"
 #: gnucash/report/html-utilities.scm:331
 msgid "This report requires you to specify certain report options."
 msgstr ""
-"Este boletín requiere que se especifiquen ciertas opciones del boletín."
+"Este reporte requiere que se especifiquen ciertas opciones del reporte."
 
 #: gnucash/report/html-utilities.scm:338
 msgid "No accounts selected"
@@ -23584,7 +23580,7 @@ msgstr "Ninguna cuenta seleccionada"
 #: gnucash/report/html-utilities.scm:339
 msgid "This report requires accounts to be selected in the report options."
 msgstr ""
-"Este boletín requiere que se seleccionen cuentas en las opciones del boletín."
+"Este reporte requiere que se seleccionen cuentas en las opciones del reporte."
 
 #: gnucash/report/html-utilities.scm:346
 #: gnucash/report/reports/standard/price-scatter.scm:316
@@ -23601,15 +23597,15 @@ msgstr ""
 
 #: gnucash/report/options-utilities.scm:33
 msgid "Select a date to report on."
-msgstr "Selecciona una fecha para el boletín."
+msgstr "Selecciona una fecha para el reporte."
 
 #: gnucash/report/options-utilities.scm:39
 msgid "Start of reporting period."
-msgstr "Inicio del periodo del boletín."
+msgstr "Inicio del periodo del reporte."
 
 #: gnucash/report/options-utilities.scm:40
 msgid "End of reporting period."
-msgstr "Final del periodo del boletín."
+msgstr "Final del periodo del reporte."
 
 #: gnucash/report/options-utilities.scm:50
 msgid "The amount of time between data points."
@@ -23740,7 +23736,7 @@ msgstr ""
 
 #: gnucash/report/options-utilities.scm:119
 msgid "Select the currency to display the values of this report in."
-msgstr "Elegir la moneda en la que visualizar los valores de este boletín."
+msgstr "Elegir la moneda en la que visualizar los valores de este reporte."
 
 #: gnucash/report/options-utilities.scm:129
 #: gnucash/report/reports/standard/advanced-portfolio.scm:80
@@ -23785,7 +23781,7 @@ msgstr "El más cercano en el tiempo"
 #: gnucash/report/options-utilities.scm:141
 #: gnucash/report/reports/standard/advanced-portfolio.scm:86
 msgid "The price recorded nearest in time to the report date."
-msgstr "El precio registrado más cercano en el tiempo a la fecha del boletín."
+msgstr "El precio registrado más cercano en el tiempo a la fecha del reporte."
 
 #: gnucash/report/options-utilities.scm:154
 msgid "Width of plot in pixels."
@@ -24025,9 +24021,9 @@ msgid ""
 "report system, especially your saved reports, for a report with this report-"
 "guid: "
 msgstr ""
-"Uno de tus boletines tiene un boletín-guid que es un duplicado. Por favor "
-"comprueba el sistema boletinado, especialmente tus boletines guardadas, para "
-"una boletín con este boletín-guid: "
+"Uno de tus reportes tiene un reporte-guid que es un duplicado. Por favor "
+"comprueba el sistema boletinado, especialmente tus reportes guardadas, para "
+"una reporte con este reporte-guid: "
 
 #: gnucash/report/report-core.scm:97
 msgid "Wrong report definition: "
@@ -24035,24 +24031,24 @@ msgstr "Definición boletinada equivocada: "
 
 #: gnucash/report/report-core.scm:98
 msgid " Report is missing a GUID."
-msgstr " Boletín no tiene un GUID."
+msgstr " Reporte no tiene un GUID."
 
 #: gnucash/report/report-core.scm:100
 msgid ""
 "Some reports stored in a legacy format were found. This format is not "
 "supported anymore so these reports may not have been restored properly."
 msgstr ""
-"Se han encontrado almacenados algunos boletines en un formato antiguo. Este "
-"formato no está apoyado más por lo que estos boletines pueden no haberse "
+"Se han encontrado almacenados algunos reportes en un formato antiguo. Este "
+"formato no está apoyado más por lo que estos reportes pueden no haberse "
 "restaurados correctamente."
 
 #: gnucash/report/report-core.scm:222
 msgid "Enter a descriptive name for this report."
-msgstr "Introducir una descripción para este boletín."
+msgstr "Introducir una descripción para este reporte."
 
 #: gnucash/report/report-core.scm:227
 msgid "Select a stylesheet for the report."
-msgstr "Selecciona una hoja de estilo para el boletín."
+msgstr "Selecciona una hoja de estilo para el reporte."
 
 #: gnucash/report/report-core.scm:235
 msgid "stylesheet."
@@ -24178,7 +24174,7 @@ msgid ""
 "not designed to cope with this possibility."
 msgstr ""
 "Las transacciones relacionados con «~a» contienen más de una moneda. Este "
-"boletín no está diseñado para contemplar esta posibilidad."
+"reporte no está diseñado para contemplar esta posibilidad."
 
 #: gnucash/report/reports/aging.scm:364
 #: gnucash/report/reports/standard/new-aging.scm:94
@@ -24241,7 +24237,7 @@ msgid ""
 "currency."
 msgstr ""
 "Muestra totales en múltiples monedas. Si no se selecciona, convertir todos "
-"los totales a la moneda del boletín."
+"los totales a la moneda del reporte."
 
 #: gnucash/report/reports/aging.scm:396
 #: gnucash/report/reports/standard/new-aging.scm:116
@@ -24277,7 +24273,7 @@ msgid ""
 "report to a spreadsheet for use in a mail merge."
 msgstr ""
 "Enseñar Nombre de Dirección. Esto, y otros campos, quizá es útil si copia "
-"este boletín a una hoja de cálculo para emplear dentro de una unión de "
+"este reporte a una hoja de cálculo para emplear dentro de una unión de "
 "correo-e."
 
 #: gnucash/report/reports/aging.scm:429
@@ -24440,7 +24436,7 @@ msgstr ""
 
 #: gnucash/report/reports/example/average-balance.scm:93
 msgid "Do transaction report on this account."
-msgstr "Crear boletín transaccional sobre esta cuenta."
+msgstr "Crear reporte transaccional sobre esta cuenta."
 
 #: gnucash/report/reports/example/average-balance.scm:116
 #: gnucash/report/reports/example/average-balance.scm:303
@@ -24790,14 +24786,14 @@ msgstr "Probando"
 
 #: gnucash/report/reports/example/hello-world.scm:204
 msgid "Crash the report"
-msgstr "Estropear el boletín"
+msgstr "Estropear el reporte"
 
 #: gnucash/report/reports/example/hello-world.scm:206
 msgid ""
 "This is for testing. Your reports probably shouldn't have an option like "
 "this."
 msgstr ""
-"Esto es para pruebas. Sus boletines probablemente no deberían tener una "
+"Esto es para pruebas. Sus reportes probablemente no deberían tener una "
 "opción como esta."
 
 #: gnucash/report/reports/example/hello-world.scm:215
@@ -24813,7 +24809,7 @@ msgid ""
 msgstr ""
 "Este es un ejemplo de informe de GnuCash. Vea el código fuente en guile "
 "(scheme) en el directorio scm/report para detalles sobre cómo escribir sus "
-"propios informes, o extender los boletines existentes."
+"propios informes, o extender los reportes existentes."
 
 #: gnucash/report/reports/example/hello-world.scm:348
 #, scheme-format
@@ -24821,8 +24817,8 @@ msgid ""
 "For help on writing reports, or to contribute your brand new, totally cool "
 "report, consult the mailing list ~a."
 msgstr ""
-"Para ayuda acerca de la escritura de boletines, o para contribuir con sus "
-"nuevos y totalmente fabulosos boletines, consulte la lista de correo ~a."
+"Para ayuda acerca de la escritura de reportes, o para contribuir con sus "
+"nuevos y totalmente fabulosos reportes, consulte la lista de correo ~a."
 
 #: gnucash/report/reports/example/hello-world.scm:353
 #, fuzzy
@@ -24927,11 +24923,11 @@ msgstr "Enseñar ayuda"
 
 #: gnucash/report/reports/example/hello-world.scm:510
 msgid "Sample Report with Examples"
-msgstr "Boletín Muestra con ejemplos"
+msgstr "Reporte de Muestra con Ejemplos"
 
 #: gnucash/report/reports/example/hello-world.scm:514
 msgid "A sample report with examples."
-msgstr "Un boletín de muestra con varios ejemplos."
+msgstr "Un reporte de muestra con varios ejemplos."
 
 #: gnucash/report/reports/example/sample-graphs.scm:42
 #, fuzzy
@@ -24967,7 +24963,7 @@ msgstr ""
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:78
 msgid "Tax Report / TXF Export"
-msgstr "Boletín impositivo / Exportar a TXF"
+msgstr "Reporte de impuestos / Exportar a TXF"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:146
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:170
@@ -25137,7 +25133,7 @@ msgstr "Periodo desde ~a hasta ~a"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:868
 msgid "Tax Report & XML Export"
-msgstr "Boletín impositivo y exportación a XML"
+msgstr "Reporte de Impuestos y Exportación a XML"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:870
 msgid "Taxable Income / Deductible Expenses / Export to .XML file"
@@ -25150,7 +25146,7 @@ msgstr "Ingresos imponibles / Gastos deducibles"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:875
 msgid "This report shows your Taxable Income and Deductible Expenses."
-msgstr "Este boletín muestra sus Ingresos Imponibles y los Gastos Deducibles."
+msgstr "Este reporte muestra sus Ingresos Imponibles y los Gastos Deducibles."
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:880
 msgid "XML"
@@ -25162,7 +25158,7 @@ msgstr "Esta página muestra sus Ingresos Imponibles y Gastos Deducibles."
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:112
 msgid "Tax Schedule Report/TXF Export"
-msgstr "Boletín del Calendario Impositivo/Exportar a TXF"
+msgstr "Reporte de Calendario de Impuestos/Exportar a TXF"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:212
 msgid "$0.00 valued Tax codes won't be printed."
@@ -25193,7 +25189,7 @@ msgstr "Escriba los parámetros de exportación TXF"
 msgid "Show TXF export parameters for each TXF code/account on report."
 msgstr ""
 "Muestra parámetros de exportación TXF para cada código/cuenta TXF en el "
-"boletín."
+"reporte."
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:232
 msgid "Do not print T-Num:Memo data"
@@ -25253,7 +25249,7 @@ msgstr "Emplee una fecha boletinada más cercana."
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:3368
 msgid "Tax Schedule Report & TXF Export"
-msgstr "Boletín del Calendario Imponible y Exportación TXF"
+msgstr "Reporte de Calendario de Impuestos y Exportación TXF"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:3370
 msgid ""
@@ -25273,7 +25269,7 @@ msgid ""
 "This report shows transaction detail for your accounts related to Income "
 "Taxes."
 msgstr ""
-"Este boletín muestra transacción detallada para sus cuentas relacionadas "
+"Este reporte muestra transacción detallada para sus cuentas relacionadas "
 "para Cargos sobre Ingresos."
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:3384
@@ -25389,17 +25385,17 @@ msgstr "Sólo muestra las cantidades, sin ninguna media."
 
 #: gnucash/report/reports/standard/account-piecharts.scm:121
 msgid "Show the average yearly amount during the reporting period."
-msgstr "Muestra la cantidad media anual durante el periodo del boletín."
+msgstr "Muestra la cantidad media anual durante el periodo del reporte."
 
 #: gnucash/report/reports/standard/account-piecharts.scm:124
 #: gnucash/report/reports/standard/category-barchart.scm:123
 msgid "Show the average monthly amount during the reporting period."
-msgstr "Muestra la cantidad media mensual durante el periodo del boletín."
+msgstr "Muestra la cantidad media mensual durante el periodo del reporte."
 
 #: gnucash/report/reports/standard/account-piecharts.scm:127
 #: gnucash/report/reports/standard/category-barchart.scm:126
 msgid "Show the average weekly amount during the reporting period."
-msgstr "Muestra la cantidad media semanal durante el periodo del boletín."
+msgstr "Muestra la cantidad media semanal durante el periodo del reporte."
 
 #: gnucash/report/reports/standard/account-piecharts.scm:159
 #: gnucash/report/reports/standard/category-barchart.scm:156
@@ -25455,7 +25451,7 @@ msgstr "Totales de transacciones programadas futuras"
 #: gnucash/report/reports/standard/income-statement.scm:53
 #: gnucash/report/reports/standard/trial-balance.scm:65
 msgid "Report Title"
-msgstr "Título del Boletín"
+msgstr "Título del Reporte"
 
 #: gnucash/report/reports/standard/account-summary.scm:73
 #: gnucash/report/reports/standard/balance-sheet.scm:77
@@ -25466,7 +25462,7 @@ msgstr "Título del Boletín"
 #: gnucash/report/reports/standard/income-statement.scm:54
 #: gnucash/report/reports/standard/trial-balance.scm:66
 msgid "Title for this report."
-msgstr "Título para este boletín."
+msgstr "Título para este reporte."
 
 #: gnucash/report/reports/standard/account-summary.scm:75
 #: gnucash/report/reports/standard/balance-sheet.scm:79
@@ -25558,7 +25554,7 @@ msgstr "Incluir las cuentas con saldos totales a cero"
 msgid "Include accounts with zero total (recursive) balances in this report."
 msgstr ""
 "Incluir cuentas con balances totales a cero (recursivos) dentro de este "
-"boletín."
+"reporte."
 
 #: gnucash/report/reports/standard/account-summary.scm:101
 #: gnucash/report/reports/standard/balance-sheet.scm:103
@@ -25794,7 +25790,7 @@ msgstr "Establecer preferencia para datos de índices de precios"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:48
 msgid "How to report brokerage fees"
-msgstr "Cómo dar el boletín de comisiones de corretaje"
+msgstr "Cómo dar el reporte de comisiones de corretaje"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:92
 msgid "Basis calculation method."
@@ -25828,7 +25824,7 @@ msgstr ""
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:113
 msgid "How to report commissions and other brokerage fees."
-msgstr "Cómo dar el boletín de adelantos y otras comisiones de corretajes."
+msgstr "Cómo dar el reporte de adelantos y otras comisiones de corretajes."
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:115
 msgid "Include in basis"
@@ -26108,7 +26104,7 @@ msgid ""
 "Report section order is assets/liabilities/equity (rather than assets/equity/"
 "liabilities)."
 msgstr ""
-"Boletín de sección de operación es activos/pasivos/patrimonio (mejor que "
+"El orden de la sección de Reporte es activos/pasivos/patrimonio (en lugar de "
 "activos/patrimonio/pasivos)."
 
 #: gnucash/report/reports/standard/balance-sheet.scm:123
@@ -26206,7 +26202,7 @@ msgstr "Hoja de Balance (eguile)"
 
 #: gnucash/report/reports/standard/balsheet-eg.scm:183
 msgid "1- or 2-column report"
-msgstr "Boletín de 1 o 2 columnas"
+msgstr "Reporte de 1 o 2 columnas"
 
 #: gnucash/report/reports/standard/balsheet-eg.scm:185
 msgid ""
@@ -26268,7 +26264,7 @@ msgid ""
 "in your .gnucash directory, or else in its proper place within the GnuCash "
 "installation directories."
 msgstr ""
-"El nombre del fichero de la parte de la plantilla ‘eguile’ de este boletín. "
+"El nombre del fichero de la parte de la plantilla ‘eguile’ de este reporte. "
 "Este fichero debe estar en su directorio .gnucash, o en otro caso en su "
 "lugar apropiado dentro de los directorios de instalación de GnuCash."
 
@@ -26285,7 +26281,7 @@ msgid ""
 "within the GnuCash installation directories."
 msgstr ""
 "El nombre del fichero de la hoja de estilo CSS para emplear con este "
-"boletín. Si lo especificó, este fichero debería estar en su directorio ."
+"reporte. Si lo especificó, este fichero debería estar en su directorio ."
 "gnucash, o bien en su propio lugar dentro de los directorios de instalación "
 "de GnuCash."
 
@@ -26344,7 +26340,7 @@ msgid ""
 "double-checking them.<br>Change the 'Extra Notes' option to get rid of this "
 "message)"
 msgstr ""
-"(Versión de desarrollo -- no dependa de los números en este boletín de doble "
+"(Versión de desarrollo -- no dependa de los números en este reporte de doble "
 "comprobante sin comprobarlos.<br>Cambie la opción 'Notas Extras' para "
 "retirar este mensaje)"
 
@@ -26520,7 +26516,7 @@ msgstr "Siempre enseñar resumen."
 #: gnucash/report/reports/standard/balsheet-pnl.scm:242
 #: gnucash/report/trep-engine.scm:573
 msgid "Disable report summary."
-msgstr "Desactivar boletín resumen."
+msgstr "Desactivar reporte resumen."
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:496
 #: gnucash/report/reports/standard/balsheet-pnl.scm:652
@@ -26674,7 +26670,7 @@ msgstr "¿Calcular como total?"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:107
 msgid "Show the report as a bar chart."
-msgstr "Muestra el boletín como un diagrama de barra."
+msgstr "Muestra el reporte como un diagrama de barra."
 
 #: gnucash/report/reports/standard/budget-barchart.scm:109
 msgid "Linechart"
@@ -26682,7 +26678,7 @@ msgstr "Diagrama lineal"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:110
 msgid "Show the report as a line chart."
-msgstr "Muestra el boletín como un diagrama de línea."
+msgstr "Muestra el reporte como un diagrama de línea."
 
 #: gnucash/report/reports/standard/budget-barchart.scm:144
 #: gnucash/report/reports/standard/budget-barchart.scm:157
@@ -26711,7 +26707,7 @@ msgstr "Comunicar para rango de períodos presupuestarios"
 #: gnucash/report/reports/standard/budget.scm:69
 msgid "Create report for a budget period range instead of the entire budget."
 msgstr ""
-"Crea un boletín para un rango de periodo presupuestario en vez del "
+"Crea un reporte para un rango de periodo presupuestario en vez del "
 "presupuesto completo."
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:66
@@ -26777,12 +26773,12 @@ msgstr "Si se debe o no incluir una línea indicando el total de gastos."
 #: gnucash/report/reports/standard/budget-income-statement.scm:125
 #: gnucash/report/reports/standard/income-statement.scm:130
 msgid "Display as a two column report"
-msgstr "Enseñar como un boletín de dos columnas"
+msgstr "Enseñar como un reporte de dos columnas"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:127
 #: gnucash/report/reports/standard/income-statement.scm:132
 msgid "Divides the report into an income column and an expense column."
-msgstr "Divide el boletín en una columna de ingresos y una columna de gastos."
+msgstr "Divide el reporte en una columna de ingresos y una columna de gastos."
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:129
 #: gnucash/report/reports/standard/income-statement.scm:134
@@ -26795,14 +26791,13 @@ msgid ""
 "Causes the report to display in the standard order, placing income before "
 "expenses."
 msgstr ""
-"Ocasiona que el boletín para enseñar en la operación común, situando "
+"Ocasiona que el reporte para enseñar en la operación común, situando "
 "ingresos antes que gastos."
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:442
 msgid "Reporting range end period cannot be less than start period."
 msgstr ""
-"Boletín del periodo del final del rango no puede ser inferior al período de "
-"inicio."
+"El final del período reportado no puede ser anterior al inicio del período."
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:510
 #: gnucash/report/reports/standard/income-statement.scm:505
@@ -26856,7 +26851,7 @@ msgstr "Presupuesto de Ganancias y Pérdidas"
 
 #: gnucash/report/reports/standard/budget.scm:39
 msgid "Budget Report"
-msgstr "Boletín Presupuestario"
+msgstr "Reporte Presupuestario"
 
 #: gnucash/report/reports/standard/budget.scm:45
 #: gnucash/report/reports/standard/cash-flow.scm:45
@@ -26932,7 +26927,7 @@ msgid ""
 "this report."
 msgstr ""
 "Incluir cuentas con balances totales a cero (recursivos) y los valores del "
-"presupuesto dentro de este boletín."
+"presupuesto dentro de este reporte."
 
 #: gnucash/report/reports/standard/budget.scm:73
 msgid "Select a budget period type that starts the reporting range."
@@ -26971,7 +26966,7 @@ msgid ""
 "Include in report previous periods as single collapsed column (one for all "
 "periods before starting)"
 msgstr ""
-"Incluir en periodos anteriores del boletín como columna única colapsada (uno "
+"Incluir en periodos anteriores del reporte como columna única colapsada (uno "
 "por todos los periodos de inicio anterior)"
 
 #: gnucash/report/reports/standard/budget.scm:87
@@ -26983,7 +26978,7 @@ msgid ""
 "Include in report further periods as single collapsed column (one for all "
 "periods after ending and to the end of budget range)"
 msgstr ""
-"Incluir al boletín periodos más lejos como columna única colapsada (uno para "
+"Incluir al reporte periodos más lejos como columna única colapsada (uno para "
 "todos los periodos tras finalizar y al final del rango del presupuesto)"
 
 #: gnucash/report/reports/standard/budget.scm:113
@@ -27003,11 +26998,11 @@ msgid ""
 "Budget period was before current period, according to report evaluation date"
 msgstr ""
 "Periodo presupuestario era anterior al periodo efectivo, de acuerdo con la "
-"fecha de evaluación del boletín"
+"fecha de evaluación del reporte"
 
 #: gnucash/report/reports/standard/budget.scm:120
 msgid "Current period, according to report evaluation date"
-msgstr "Periodo efectiva, de acuerdo con la fecha de evaluación del boletín"
+msgstr "Periodo efectiva, de acuerdo con la fecha de evaluación del reporte"
 
 #: gnucash/report/reports/standard/budget.scm:122
 msgid "Next"
@@ -27015,7 +27010,7 @@ msgstr "Siguiente"
 
 #: gnucash/report/reports/standard/budget.scm:123
 msgid "Next period, according to report evaluation date"
-msgstr "Periodo siguiente, de acuerdo con la fecha de evaluación del boletín"
+msgstr "Periodo siguiente, de acuerdo con la fecha de evaluación del reporte"
 
 #: gnucash/report/reports/standard/budget.scm:126
 msgid "Last budget period"
@@ -27060,7 +27055,7 @@ msgstr "Barra Gráfica del Efectivo Corriente"
 #: gnucash/report/reports/standard/cashflow-barchart.scm:45
 #: gnucash/report/reports/standard/cash-flow.scm:53
 msgid "Include Trading Accounts in report"
-msgstr "Incluir Cuentas de Bursátiles en el boletín"
+msgstr "Incluir Cuentas de Bursátiles en el reporte"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:47
 msgid "Show Money In"
@@ -27083,7 +27078,7 @@ msgstr "Mostrar Lengüeta"
 msgid "Include transfers to and from Trading Accounts in the report."
 msgstr ""
 "Incluir emisión y recepción de transferencias de Cuentas Bursátiles en el "
-"boletín."
+"reporte."
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:106
 msgid "Show money in?"
@@ -27206,7 +27201,7 @@ msgstr "Barras de Máximos"
 
 #: gnucash/report/reports/standard/category-barchart.scm:129
 msgid "Show the average daily amount during the reporting period."
-msgstr "Muestra la media diaria de la cantidad durante el periodo del boletín."
+msgstr "Muestra la media diaria de la cantidad durante el periodo del reporte."
 
 #: gnucash/report/reports/standard/category-barchart.scm:164
 msgid "Bar Chart"
@@ -27325,7 +27320,7 @@ msgid ""
 "the reporting period, hence would show all zeros in the columns."
 msgstr ""
 "Muestra las líneas de distribución con los clientes que no tienen ninguna "
-"transacción en el periodo del boletín, por lo tanto sería mostrar todos los "
+"transacción en el periodo del reporte, por lo tanto sería mostrar todos los "
 "ceros en las columnas."
 
 #: gnucash/report/reports/standard/customer-summary.scm:81
@@ -27633,9 +27628,9 @@ msgid ""
 "liability, A/Payable or A/Receivable accounts, a split to a tax account, e."
 "g. Income:Sales -$1000, A/Receivable $1100, Liability:GST on Sales -$100."
 msgstr ""
-"Este boletín es útil para calcular imposiciones periódicas de negocios "
+"Este reporte es útil para calcular imposiciones periódicas de negocios "
 "desde\n"
-" autoridades. Desde «Opciones de edición de boletín» encima, elija sus "
+" autoridades. Desde «Opciones de edición de reporte» encima, elija sus "
 "cuentas de Ingresos y Liquidaciones de Negocios.\n"
 " Cada transacción quizá contenga, en adición a las cuentas abonables/"
 "ingresables o cuentas bancarias,\n"
@@ -27664,7 +27659,7 @@ msgid ""
 "ASSET for taxes paid on expenses, and type LIABILITY for taxes collected on "
 "sales."
 msgstr ""
-"Desde las Opciones del Boletín, necesitará seleccionar las cuentas las "
+"Desde las Opciones del Reporte, necesitará seleccionar las cuentas las "
 "cuales conservarán las imposiciones TIV/IVA recogidas o pagadas. Estas "
 "cuentas deberían contener desgloses las cuales documentan las monedas que "
 "quieran envían o reclamar desde autoridades impositivas durante las "
@@ -28112,7 +28107,7 @@ msgstr "¿Enseñar las liquidaciones aplicadas a esta factura?"
 
 #: gnucash/report/reports/standard/invoice.scm:337
 msgid "Job Details"
-msgstr "Ejercicio Detallado"
+msgstr "Detalles de Proyecto"
 
 #: gnucash/report/reports/standard/invoice.scm:338
 msgid "Display the job name for this invoice?"
@@ -28241,7 +28236,7 @@ msgstr "Total Vencida"
 
 #: gnucash/report/reports/standard/job-report.scm:352
 msgid "The job for this report."
-msgstr "El ejercicio para este boletín."
+msgstr "El ejercicio para este reporte."
 
 #: gnucash/report/reports/standard/job-report.scm:360
 #: gnucash/report/reports/standard/owner-report.scm:543
@@ -28283,7 +28278,7 @@ msgstr "¿Enseñar la cantidad de la transacción?"
 #: gnucash/report/reports/standard/job-report.scm:504
 #: gnucash/report/reports/standard/new-owner-report.scm:1188
 msgid "Job Report"
-msgstr "Boletín de Ejercicio"
+msgstr "Reporte de Proyecto"
 
 #: gnucash/report/reports/standard/job-report.scm:576
 #: gnucash/report/reports/standard/new-owner-report.scm:88
@@ -28307,7 +28302,7 @@ msgstr "Ningún cliente válido seleccionado."
 #: gnucash/report/reports/standard/new-owner-report.scm:93
 #: gnucash/report/reports/standard/owner-report.scm:81
 msgid "No valid employee selected."
-msgstr "Ningún operador válido seleccionado."
+msgstr "Ningún empleado válido seleccionado."
 
 #: gnucash/report/reports/standard/job-report.scm:585
 #, fuzzy
@@ -28490,22 +28485,22 @@ msgstr "Enlace a lote"
 #: gnucash/report/reports/standard/new-owner-report.scm:89
 #: gnucash/report/reports/standard/owner-report.scm:87
 msgid "This report requires a customer to be selected."
-msgstr "Este boletín requiere que se seleccione un cliente."
+msgstr "Este reporte requiere que se seleccione un cliente."
 
 #: gnucash/report/reports/standard/new-owner-report.scm:94
 #: gnucash/report/reports/standard/owner-report.scm:88
 msgid "This report requires a employee to be selected."
-msgstr "Este boletín requiere que se seleccione un operador."
+msgstr "Este reporte requiere que se seleccione un empleado."
 
 #: gnucash/report/reports/standard/new-owner-report.scm:99
 #, fuzzy
 msgid "This report requires a job to be selected."
-msgstr "Este boletín requiere que se seleccione una sociedad."
+msgstr "Este reporte requiere que se seleccione una sociedad."
 
 #: gnucash/report/reports/standard/new-owner-report.scm:104
 #, fuzzy
 msgid "This report requires a vendor to be selected."
-msgstr "Este boletín requiere que se seleccione un cliente."
+msgstr "Este reporte requiere que se seleccione un cliente."
 
 #: gnucash/report/reports/standard/new-owner-report.scm:234
 #, fuzzy
@@ -28537,7 +28532,7 @@ msgstr "Periodos Totales"
 #: gnucash/report/reports/standard/new-owner-report.scm:836
 #: gnucash/report/reports/standard/owner-report.scm:535
 msgid "The company for this report."
-msgstr "La sociedad para este boletín."
+msgstr "La sociedad para este reporte."
 
 #: gnucash/report/reports/standard/new-owner-report.scm:876
 #: gnucash/report/reports/standard/owner-report.scm:582
@@ -28603,7 +28598,7 @@ msgstr "Ninguna cuenta coincidente encontrada"
 #: gnucash/report/reports/standard/new-owner-report.scm:1040
 #, fuzzy
 msgid "This report requires a valid AP/AR account to be available."
-msgstr "Este boletín requiere una cuenta válida para ser seleccionada."
+msgstr "Este reporte requiere una cuenta válida para ser seleccionada."
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1063
 #, fuzzy
@@ -28621,7 +28616,7 @@ msgstr "Sin sociedad válida seleccionada."
 
 #: gnucash/report/reports/standard/owner-report.scm:91
 msgid "This report requires a company to be selected."
-msgstr "Este boletín requiere que se seleccione una sociedad."
+msgstr "Este reporte requiere que se seleccione una sociedad."
 
 #: gnucash/report/reports/standard/owner-report.scm:107
 msgid "No valid account selected"
@@ -28629,11 +28624,11 @@ msgstr "No se ha seleccionado ninguna cuenta válida"
 
 #: gnucash/report/reports/standard/owner-report.scm:108
 msgid "This report requires a valid account to be selected."
-msgstr "Este boletín requiere una cuenta válida para ser seleccionada."
+msgstr "Este reporte requiere una cuenta válida para ser seleccionada."
 
 #: gnucash/report/reports/standard/owner-report.scm:768
 msgid "Report:"
-msgstr "Boletín:"
+msgstr "Reporte:"
 
 #: gnucash/report/reports/standard/payables.scm:36
 msgid "Payable Account"
@@ -28763,7 +28758,7 @@ msgid ""
 "Your selected commodity and the currency of the report are identical. It "
 "doesn't make sense to show prices for identical commodities."
 msgstr ""
-"Ha elegido una mercancía y una moneda para el boletín que son idénticos. No "
+"Ha elegido una mercancía y una moneda para el reporte que son idénticos. No "
 "tiene sentido mostrar precios para mercancías idénticas."
 
 #: gnucash/report/reports/standard/price-scatter.scm:359
@@ -28783,7 +28778,7 @@ msgstr "Encabezados 2"
 #: gnucash/report/reports/standard/receipt.scm:43
 #: gnucash/report/reports/standard/taxinvoice.scm:102
 msgid "Report title"
-msgstr "Título del boletín"
+msgstr "Título del reporte"
 
 #: gnucash/report/reports/standard/receipt.scm:44
 #: libgnucash/app-utils/business-prefs.scm:40
@@ -28871,7 +28866,7 @@ msgid ""
 "either be in your .gnucash directory, or else in its proper place within the "
 "GnuCash installation directories."
 msgstr ""
-"El nombre del fichero de la parte de la plantilla ‘eguile’ de este boletín. "
+"El nombre del fichero de la parte de la plantilla ‘eguile’ de este reporte. "
 "Este fichero debería estar o en su directorio .gnucash, o bien en su lugar "
 "apropiado dentro de los directorios de instalación de GnuCash."
 
@@ -28882,7 +28877,7 @@ msgid ""
 "within the GnuCash installation directories."
 msgstr ""
 "El nombre del fichero de la hoja de estilo CSS para emplear con este "
-"boletín. Este fichero o debe estar en su carpeta .gnucash, o bien en su "
+"reporte. Este fichero o debe estar en su carpeta .gnucash, o bien en su "
 "lugar apropiado dentro de las carpetas de instalación de GnuCash."
 
 #: gnucash/report/reports/standard/receipt.scm:88
@@ -28897,7 +28892,7 @@ msgstr "Tipografía para utilizar para lo demás"
 msgid "Name of a file containing a logo to be used on the header of the report"
 msgstr ""
 "Nombre de un fichero conteniendo un logotipo para utilizarse en la cabecera "
-"del boletín"
+"del reporte"
 
 #: gnucash/report/reports/standard/receipt.scm:97
 msgid ""
@@ -28912,7 +28907,7 @@ msgstr ""
 #: gnucash/report/reports/standard/receipt.scm:100
 msgid "Name of a file containing a logo to be used on the footer of the report"
 msgstr ""
-"Nombre de un fichero conteniendo un logotipo para utilizarse en el boletín"
+"Nombre de un fichero conteniendo un logotipo para utilizarse en el reporte"
 
 #: gnucash/report/reports/standard/receipt.scm:103
 msgid ""
@@ -28973,7 +28968,7 @@ msgstr ""
 
 #: gnucash/report/reports/standard/reconcile-report.scm:103
 msgid "Reconciliation Report"
-msgstr "Boletín Conciliación"
+msgstr "Reporte de Conciliación"
 
 #: gnucash/report/reports/standard/register.scm:147
 #: gnucash/report/reports/standard/register.scm:416
@@ -28991,7 +28986,7 @@ msgstr "Valor Crediticio"
 
 #: gnucash/report/reports/standard/register.scm:376
 msgid "The title of the report."
-msgstr "El título para este boletín."
+msgstr "El título para este reporte."
 
 #: gnucash/report/reports/standard/register.scm:388
 msgid "Display the check number/action?"
@@ -29097,7 +29092,7 @@ msgstr "Fecha"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:83
 msgid "column: Tax Rate"
-msgstr "Tipo Impositivo"
+msgstr "Tasa de impuesto"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:84
 msgid "column: Units"
@@ -29117,7 +29112,7 @@ msgstr "Número Facturante"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:88
 msgid "row: Company Name"
-msgstr "Nombre Societario"
+msgstr "Nombre de Empresa"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:89
 msgid "Invoice number text"
@@ -29137,7 +29132,7 @@ msgstr "Nombre textual de ejercicio"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:93
 msgid "Job Number text"
-msgstr "Número de Ejercicio textual"
+msgstr "Texto Número de Proyecto"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:94
 msgid "Show Job name"
@@ -29213,7 +29208,7 @@ msgstr "¿Enseñar el nombre del ejercicio?"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:144
 msgid "Invoice Job number?"
-msgstr "¿Número de Factura del Ejercicio?"
+msgstr "¿Número de Factura del Proyecto?"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:145
 msgid "Show net price?"
@@ -29225,7 +29220,7 @@ msgid ""
 "either be in your .gnucash directory, or else in its proper place within the "
 "GnuCash installation directories."
 msgstr ""
-"El nombre del fichero de la parte de la plantilla ‘eguile’ de este boletín. "
+"El nombre del fichero de la parte de la plantilla ‘eguile’ de este reporte. "
 "Este fichero debe estar o en su directorio .gnucash, o bien en su lugar "
 "apropiado dentro de los directorios de instalación de GnuCash."
 
@@ -29236,7 +29231,7 @@ msgid ""
 "within the GnuCash installation directories."
 msgstr ""
 "El nombre del fichero de la hoja de estilo CSS para emplear con este "
-"boletín. Este fichero o debe estar en su carpeta .gnucash, o bien en su "
+"reporte. Este fichero o debe estar en su carpeta .gnucash, o bien en su "
 "lugar apropiado dentro de las carpetas de instalación de GnuCash."
 
 #: gnucash/report/reports/standard/taxinvoice.scm:156
@@ -29250,7 +29245,7 @@ msgstr "Tipografía para utilizar para lo demás."
 #: gnucash/report/reports/standard/taxinvoice.scm:162
 msgid "Name of a file containing a logo to be used on the report."
 msgstr ""
-"Nombre de un fichero conteniendo un logotipo para utilizarse en el boletín."
+"Nombre de un fichero conteniendo un logotipo para utilizarse en el reporte."
 
 #: gnucash/report/reports/standard/taxinvoice.scm:165
 msgid ""
@@ -29353,7 +29348,7 @@ msgstr "Comienzo de Ajuste/Cierre"
 
 #: gnucash/report/reports/standard/trial-balance.scm:72
 msgid "Date of Report"
-msgstr "Fecha de Boletín"
+msgstr "Fecha de Reporte"
 
 #: gnucash/report/reports/standard/trial-balance.scm:73
 msgid "Report variation"
@@ -29476,7 +29471,7 @@ msgstr "Editar Opciones"
 
 #: gnucash/report/reports/standard/view-column.scm:166
 msgid "Single Report"
-msgstr "Boletín Sencillo"
+msgstr "Reporte Sencillo"
 
 #: gnucash/report/reports/standard/view-column.scm:219
 msgid "Multicolumn View"
@@ -29484,7 +29479,7 @@ msgstr "Vista Multicolumna"
 
 #: gnucash/report/reports/standard/view-column.scm:221
 msgid "Custom Multicolumn Report"
-msgstr "Boletín Multicolumna Personalizado"
+msgstr "Reporte Multicolumna Personalizado"
 
 #: gnucash/report/reports/support/balsheet-eg.eguile.scm:173
 msgid "Assets Accounts"
@@ -29513,7 +29508,7 @@ msgstr "Valor de Descueadre"
 
 #: gnucash/report/reports/support/balsheet-eg.eguile.scm:281
 msgid "<strong>Exchange Rates</strong> used for this report"
-msgstr "<strong>Tipo de Cambio</strong> utilizado para este boletín"
+msgstr "<strong>Tipo de Cambio</strong> utilizado para este reporte"
 
 #: gnucash/report/reports/support/receipt.eguile.scm:124
 msgid "Invoice No."
@@ -29536,7 +29531,7 @@ msgid ""
 "This report is designed for customer (sales) invoices only. Please use the "
 "Options menu to select an <em>Invoice</em>, not a Bill or Expense Voucher."
 msgstr ""
-"Este boletín está diseñado únicamente para las facturas (ventas) de los "
+"Este reporte está diseñado únicamente para las facturas (ventas) de los "
 "clientes. Emplee el menú de Opciones para elegir una <em>Factura</em>, no un "
 "Recibo o Comprobante de Gastos."
 
@@ -29592,12 +29587,12 @@ msgstr "Líneas Crediticias"
 #: gnucash/report/report-utilities.scm:611
 #, scheme-format
 msgid "Building '~a' report ..."
-msgstr "Creando boletín «~a»…"
+msgstr "Creando reporte «~a»…"
 
 #: gnucash/report/report-utilities.scm:617
 #, scheme-format
 msgid "Rendering '~a' report ..."
-msgstr "Renderizando boletín «~a»…"
+msgstr "Renderizando reporte «~a»…"
 
 #: gnucash/report/report-utilities.scm:619
 #, fuzzy
@@ -29625,7 +29620,7 @@ msgstr "Preparado por"
 #: gnucash/report/stylesheets/footer.scm:56
 #: gnucash/report/stylesheets/head-or-tail.scm:54
 msgid "Name of person preparing the report."
-msgstr "Nombre de la persona que prepara el boletín."
+msgstr "Nombre de la persona que prepara el reporte."
 
 #: gnucash/report/stylesheets/footer.scm:62
 #: gnucash/report/stylesheets/head-or-tail.scm:59
@@ -29657,7 +29652,7 @@ msgstr "Activar enlaces"
 #: gnucash/report/stylesheets/head-or-tail.scm:96
 #: gnucash/report/stylesheets/plain.scm:58
 msgid "Enable hyperlinks in reports."
-msgstr "Activar hiper-enlaces en boletines."
+msgstr "Activar hiper-enlaces en reportes."
 
 #: gnucash/report/stylesheets/footer.scm:83
 #: gnucash/report/stylesheets/footer.scm:431
@@ -29689,7 +29684,7 @@ msgstr "Mosaico de fondo"
 #: gnucash/report/stylesheets/head-or-tail.scm:139
 #: gnucash/report/stylesheets/plain.scm:53
 msgid "Background tile for reports."
-msgstr "Mosaico de fondo para boletines."
+msgstr "Mosaico de fondo para reportes."
 
 #. Translators: Banner is an image like Logo.
 #: gnucash/report/stylesheets/footer.scm:97
@@ -29702,7 +29697,7 @@ msgstr "Encabezado"
 #: gnucash/report/stylesheets/head-or-tail.scm:145
 #: gnucash/report/stylesheets/head-or-tail.scm:150
 msgid "Banner for top of report."
-msgstr "Encabezado para la cima del boletín."
+msgstr "Encabezado para el reporte."
 
 #: gnucash/report/stylesheets/footer.scm:103
 #: gnucash/report/stylesheets/head-or-tail.scm:150
@@ -29925,8 +29920,7 @@ msgstr "Mostrar informe de receptor"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:72
 msgid "Name of organization or company the report is prepared for."
-msgstr ""
-"Nombre de organización o sociedad por la que el boletín está preparado."
+msgstr "Nombre de organización o sociedad por la cual se preparó el reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:77
 msgid "Show date"
@@ -29934,7 +29928,7 @@ msgstr "Muestra la fecha"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:78
 msgid "The creation date for this report."
-msgstr "La fecha de creación para este boletín."
+msgstr "La fecha de creación para este reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:83
 msgid "Show time in addition to date"
@@ -29944,7 +29938,7 @@ msgstr "Muestra hora como añadido a la fecha"
 msgid ""
 "The creation time for this report can only be shown if the date is shown."
 msgstr ""
-"La hora de creación para este boletín solo puede ser mostrado si la fecha se "
+"La hora de creación para este reporte solo puede ser mostrado si la fecha se "
 "muestra."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:89
@@ -29967,7 +29961,7 @@ msgstr "Mostrar informe del preparador al fondo"
 msgid "Per default the preparer info will be shown before the report data."
 msgstr ""
 "Por defecto la información del asesor Gnucash será mostrada antes de los "
-"datos del boletín."
+"datos del reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:114
 msgid "Show receiver info at bottom"
@@ -29977,7 +29971,7 @@ msgstr "Mostrar informe del receptor al fondo"
 msgid "Per default the receiver info will be shown before the report data."
 msgstr ""
 "Por defecto la información del receptor será mostrada antes de los datos del "
-"boletín."
+"reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:120
 msgid "Show date/time at bottom"
@@ -29987,7 +29981,7 @@ msgstr "Mostrar fecha/hora debajo"
 msgid "Per default the date/time info will be shown before the report data."
 msgstr ""
 "Por defecto la información de fecha/hora será mostrada antes de los datos "
-"del boletín."
+"del reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:126
 msgid "Show comments at bottom"
@@ -29999,7 +29993,7 @@ msgid ""
 "data."
 msgstr ""
 "Por defecto el texto de comentarios adicionales serán mostrados antes de los "
-"datos del boletín."
+"datos del reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:132
 msgid "Show GnuCash version at bottom"
@@ -30008,14 +30002,14 @@ msgstr "Mostrar versión de GnuCash debajo"
 #: gnucash/report/stylesheets/head-or-tail.scm:133
 msgid "Per default the GnuCash version will be shown before the report data."
 msgstr ""
-"Por defecto la versión Gnucash será mostrada antes de los datos del boletín."
+"Por defecto la versión Gnucash será mostrada antes de los datos del reporte."
 
 #: gnucash/report/stylesheets/head-or-tail.scm:449
 #: gnucash/report/stylesheets/head-or-tail.scm:456
 #: gnucash/report/stylesheets/head-or-tail.scm:543
 #: gnucash/report/stylesheets/head-or-tail.scm:550
 msgid "Report Creation Date: "
-msgstr "Fecha del boletín creado: "
+msgstr "Fecha del reporte creado: "
 
 #: gnucash/report/stylesheets/head-or-tail.scm:558
 msgid "GnuCash "
@@ -30028,7 +30022,7 @@ msgstr "Cabecera o Cola"
 
 #: gnucash/report/stylesheets/plain.scm:47
 msgid "Background color for reports."
-msgstr "Color de fondo para boletines."
+msgstr "Color de fondo para reportes."
 
 #: gnucash/report/stylesheets/plain.scm:53
 msgid "Background Pixmap"
@@ -30401,7 +30395,7 @@ msgstr ""
 
 #: gnucash/report/trep-engine.scm:629
 msgid "Filter by reconcile status."
-msgstr "Filtrar por boletín conciliado."
+msgstr "Filtrar por reporte conciliado."
 
 #: gnucash/report/trep-engine.scm:636
 msgid "How to handle void transactions."
@@ -30666,18 +30660,18 @@ msgstr ""
 
 #: libgnucash/app-utils/business-prefs.scm:35
 msgid "Employee number format"
-msgstr "Formato de número del operador"
+msgstr "Formato de número del empleado"
 
 #: libgnucash/app-utils/business-prefs.scm:36
 msgid "Employee number"
-msgstr "Número del operador"
+msgstr "Número del empleado"
 
 #: libgnucash/app-utils/business-prefs.scm:37
 msgid ""
 "The format string to use for generating employee numbers. This is a printf-"
 "style format string."
 msgstr ""
-"El formato de la cadena que se utiliza para generar números de operadores. "
+"El formato de la cadena que se utiliza para generar números de empleados. "
 "Esto es una cadena de formato de estilo de escritura."
 
 #: libgnucash/app-utils/business-prefs.scm:38
@@ -30685,8 +30679,8 @@ msgid ""
 "The previous employee number generated. This number will be incremented to "
 "generate the next employee number."
 msgstr ""
-"El número del operador anterior generado. Este número será incrementado para "
-"generar el siguiente número de operador."
+"El número del empleado anteriormente generado. Este número será incrementado "
+"para generar el siguiente número de empleado."
 
 #: libgnucash/app-utils/business-prefs.scm:39
 msgid "Invoice number format"
@@ -30902,7 +30896,7 @@ msgstr ""
 "Compruebe tener espacio de operación de desglose empleado en registros para "
 "espacio de 'Num' en lugar del número de transacción; número de transacción "
 "mostrados como 'T-Num' en la segunda línea del registro. Tiene un efecto "
-"correspondiendo en características de negocios, boletines e importaciones/"
+"correspondiendo en características de negocios, reportes e importaciones/"
 "exportaciones."
 
 #: libgnucash/app-utils/business-prefs.scm:150
